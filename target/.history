@@ -44,3 +44,22 @@ run -Dhttps.port=9443
 run -Dhttps.port=9443
 exit
 ~ run
+test
+run test
+help
+test:
+play test
+version
+~ run
+ls
+exit
+~ run
+compile
+last-grep
+ls
+help
+eclipse
+clean
+update
+reload
+~ run

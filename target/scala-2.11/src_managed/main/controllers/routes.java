@@ -1,6 +1,6 @@
 // @SOURCE:/home/haroldo/projetoseclipse/filmes/conf/routes
 // @HASH:ca47de636cd53773f05dc1565704f79f90dafd6d
-// @DATE:Mon Aug 18 15:04:28 BRT 2014
+// @DATE:Mon Aug 18 16:31:55 BRT 2014
 
 package controllers;
 

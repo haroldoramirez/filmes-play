@@ -44,7 +44,7 @@ Seq[Any](format.raw/*1.34*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Wed Aug 13 15:50:48 BRT 2014
+                  DATE: Mon Aug 18 16:31:57 BRT 2014
                   SOURCE: /home/haroldo/projetoseclipse/filmes/app/views/campo.scala.html
                   HASH: a6219dbfc8387721ae7f1a863e5a47486bd802dc
                   MATRIX: 737->1|857->33|884->34|923->47|953->69|992->71|1016->78|1028->83|1066->84|1107->95|1153->115|1169->123|1192->126|1252->160|1268->168|1294->174|1361->216|1377->224|1403->230|1433->234
