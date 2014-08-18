@@ -1,0 +1,46 @@
+eclipse
+exit
+eclipse
+~ run
+reload
+update
+eclipse
+~ run
+reload
+update
+eclipse
+~ run
+update
+reload
+update
+~ run
+reload
+update
+eclipse
+~run
+~ run
+clean
+reload
+update
+eclipse
+~ run
+~run
+~ run
+exit
+~run
+~ run
+play debug run
+help
+activator debug run
+activator help
+help
+play debug
+activator debug run:
+activator help
+help activator
+~ run
+run -Dhttps.port=9443
+~ run
+run -Dhttps.port=9443
+exit
+~ run

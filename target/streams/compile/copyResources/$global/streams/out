@@ -1,0 +1,9 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/haroldo/projetoseclipse/filmes/conf/application.conf,/home/haroldo/projetoseclipse/filmes/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/haroldo/projetoseclipse/filmes/conf/routes,/home/haroldo/projetoseclipse/filmes/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/haroldo/projetoseclipse/filmes/conf/evolutions,/home/haroldo/projetoseclipse/filmes/target/scala-2.11/classes/evolutions)[0m
+[0m[[0mdebug[0m] [0m	(/home/haroldo/projetoseclipse/filmes/conf/heroku.conf,/home/haroldo/projetoseclipse/filmes/target/scala-2.11/classes/heroku.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/haroldo/projetoseclipse/filmes/conf/messages.pt,/home/haroldo/projetoseclipse/filmes/target/scala-2.11/classes/messages.pt)[0m
+[0m[[0mdebug[0m] [0m	(/home/haroldo/projetoseclipse/filmes/conf/generated.keystore,/home/haroldo/projetoseclipse/filmes/target/scala-2.11/classes/generated.keystore)[0m
+[0m[[0mdebug[0m] [0m	(/home/haroldo/projetoseclipse/filmes/conf/evolutions/default,/home/haroldo/projetoseclipse/filmes/target/scala-2.11/classes/evolutions/default)[0m
+[0m[[0mdebug[0m] [0m	(/home/haroldo/projetoseclipse/filmes/conf/evolutions/default/1.sql,/home/haroldo/projetoseclipse/filmes/target/scala-2.11/classes/evolutions/default/1.sql)[0m
