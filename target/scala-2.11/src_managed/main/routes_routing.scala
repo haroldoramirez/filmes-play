@@ -1,6 +1,6 @@
-// @SOURCE:/home/haroldo/projetoseclipse/filmes/conf/routes
+// @SOURCE:/home/haroldo/Projetos/filmes-play/conf/routes
 // @HASH:ca47de636cd53773f05dc1565704f79f90dafd6d
-// @DATE:Mon Aug 18 16:31:55 BRT 2014
+// @DATE:Wed Aug 20 14:21:52 BRT 2014
 
 
 import play.core._

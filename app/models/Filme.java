@@ -36,8 +36,20 @@ public class Filme extends Model {
 	public Integer votos;
 
 	public String url;
-	
-	
+
+	@ManyToOne
+	public Diretor diretor;
+
+	public static Model.Finder<Long,Filme> find = new Model.Finder<Long,Filme>(Long.class,Filme.class);
+
+	public static Map<String,String> anoOptions() {
+
+		LinkedHashMap<String,String> options = new LinkedHashMap<String,String>();
+		for (int a = 1970 ; a <= 2015 ; a++) {
+			options.put(String.valueOf(a),String.valueOf(a));
+		}
+		return options;
+	}
 
 	public Long getId() {
 		return id;
@@ -118,27 +130,5 @@ public class Filme extends Model {
 	public void setDiretor(Diretor diretor) {
 		this.diretor = diretor;
 	}
-	
-	@ManyToOne
-	public Diretor diretor;
 
-	public static Model.Finder<Long,Filme> find = new Model.Finder<Long,Filme>(Long.class,Filme.class);
-
-	public static Map<String,String> anoOptions() {
-
-		LinkedHashMap<String,String> options = new LinkedHashMap<String,String>();
-		for (int a = 1970 ; a <= 2015 ; a++) {
-			options.put(String.valueOf(a),String.valueOf(a));
-		}
-		return options;
-	}
-
-	@Override
-	public String toString() {
-		return "Filme [id=" + id + ", nome=" + nome + ", tipo=" + tipo
-				+ ", nota=" + nota + ", duracao=" + duracao + ", ano=" + ano
-				+ ", genero=" + genero + ", votos=" + votos + ", url=" + url
-				+ ", diretor=" + diretor + "]";
-	}
-	
 }

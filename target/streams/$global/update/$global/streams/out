@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/haroldo/projetoseclipse/filmes/}root...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/haroldo/Projetos/filmes-play/}root...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: filmes#filmes_2.11;1.0-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for filmes#filmes_2.11;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies filmes#filmes_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@462440b[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1967e2c[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.11.1[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.1 in sbt-chain[0m
@@ -6934,8 +6934,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies filmes#filmes_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.1 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies filmes#filmes_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.1 [scala-tool->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies filmes#filmes_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.1 [scala-tool->optional(default)][0m
-[0m[[0mdebug[0m] [0mcircular dependency found: org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-compiler;2.11.0->...[0m
-[0m[[0mdebug[0m] [0mcircular dependency found: org.scala-lang#scala-compiler;2.11.1->org.scala-lang.modules#scala-xml_2.11;1.0.2->...[0m
 [0m[[0mdebug[0m] [0mall callers are evicted for commons-logging#commons-logging;1.1.1: evicting too[0m
 [0m[[0mdebug[0m] [0mall callers are evicted for commons-logging#commons-logging;1.1.1: evicting too[0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
@@ -7078,19 +7076,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.1!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.11!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 7250ms :: artifacts dl 100ms[0m
-[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT compile produced in /home/haroldo/projetoseclipse/filmes/target/resolution-cache/reports/filmes-filmes_2.11-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT runtime produced in /home/haroldo/projetoseclipse/filmes/target/resolution-cache/reports/filmes-filmes_2.11-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT test produced in /home/haroldo/projetoseclipse/filmes/target/resolution-cache/reports/filmes-filmes_2.11-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT provided produced in /home/haroldo/projetoseclipse/filmes/target/resolution-cache/reports/filmes-filmes_2.11-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT optional produced in /home/haroldo/projetoseclipse/filmes/target/resolution-cache/reports/filmes-filmes_2.11-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT compile-internal produced in /home/haroldo/projetoseclipse/filmes/target/resolution-cache/reports/filmes-filmes_2.11-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT runtime-internal produced in /home/haroldo/projetoseclipse/filmes/target/resolution-cache/reports/filmes-filmes_2.11-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT test-internal produced in /home/haroldo/projetoseclipse/filmes/target/resolution-cache/reports/filmes-filmes_2.11-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT plugin produced in /home/haroldo/projetoseclipse/filmes/target/resolution-cache/reports/filmes-filmes_2.11-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT sources produced in /home/haroldo/projetoseclipse/filmes/target/resolution-cache/reports/filmes-filmes_2.11-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT docs produced in /home/haroldo/projetoseclipse/filmes/target/resolution-cache/reports/filmes-filmes_2.11-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT pom produced in /home/haroldo/projetoseclipse/filmes/target/resolution-cache/reports/filmes-filmes_2.11-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT scala-tool produced in /home/haroldo/projetoseclipse/filmes/target/resolution-cache/reports/filmes-filmes_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (7250ms resolve - 100ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1867ms :: artifacts dl 50ms[0m
+[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT compile produced in /home/haroldo/Projetos/filmes-play/target/resolution-cache/reports/filmes-filmes_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT runtime produced in /home/haroldo/Projetos/filmes-play/target/resolution-cache/reports/filmes-filmes_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT test produced in /home/haroldo/Projetos/filmes-play/target/resolution-cache/reports/filmes-filmes_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT provided produced in /home/haroldo/Projetos/filmes-play/target/resolution-cache/reports/filmes-filmes_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT optional produced in /home/haroldo/Projetos/filmes-play/target/resolution-cache/reports/filmes-filmes_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT compile-internal produced in /home/haroldo/Projetos/filmes-play/target/resolution-cache/reports/filmes-filmes_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT runtime-internal produced in /home/haroldo/Projetos/filmes-play/target/resolution-cache/reports/filmes-filmes_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT test-internal produced in /home/haroldo/Projetos/filmes-play/target/resolution-cache/reports/filmes-filmes_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT plugin produced in /home/haroldo/Projetos/filmes-play/target/resolution-cache/reports/filmes-filmes_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT sources produced in /home/haroldo/Projetos/filmes-play/target/resolution-cache/reports/filmes-filmes_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT docs produced in /home/haroldo/Projetos/filmes-play/target/resolution-cache/reports/filmes-filmes_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT pom produced in /home/haroldo/Projetos/filmes-play/target/resolution-cache/reports/filmes-filmes_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for filmes#filmes_2.11;1.0-SNAPSHOT scala-tool produced in /home/haroldo/Projetos/filmes-play/target/resolution-cache/reports/filmes-filmes_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (1867ms resolve - 50ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

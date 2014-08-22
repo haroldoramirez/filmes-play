@@ -11,6 +11,7 @@ import play.db.ebean.Model;
 
 @Entity
 public class Diretor extends Model {
+
 	private static final long serialVersionUID = 1L;
 
 	@Id
@@ -18,8 +19,8 @@ public class Diretor extends Model {
 
 	@Constraints.Required
 	public String nome;
-
 	
+
 	public Long getId() {
 		return id;
 	}
@@ -35,7 +36,7 @@ public class Diretor extends Model {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	
+
 	public static Model.Finder<Long,Diretor> find = new Model.Finder<Long,Diretor>(Long.class,Diretor.class);
 
 	public static Map<String,String> options() {
@@ -50,5 +51,5 @@ public class Diretor extends Model {
 	public String toString() {
 		return "Diretor [id=" + id + ", nome=" + nome + "]";
 	}
-	
+
 }

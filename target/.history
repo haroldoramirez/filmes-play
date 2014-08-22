@@ -63,3 +63,22 @@ clean
 update
 reload
 ~ run
+reload
+update
+eclipse
+~ run
+test
+activator test
+help
+test
+help play
+help
+~ test
+test
+~ test
+test
+~ test
+exit
+test
+~ test
+~ run
