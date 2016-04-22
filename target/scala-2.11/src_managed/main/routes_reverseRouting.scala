@@ -1,6 +1,6 @@
-// @SOURCE:/home/haroldo/Projetos/filmes-play/conf/routes
-// @HASH:ca47de636cd53773f05dc1565704f79f90dafd6d
-// @DATE:Wed Aug 20 14:21:52 BRT 2014
+// @SOURCE:C:/Users/Haroldo/sources/filmes-play/conf/routes
+// @HASH:0066137ec6da9ba46c18344a90cd394b2cb83b74
+// @DATE:Tue Apr 19 15:16:21 BRT 2016
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
